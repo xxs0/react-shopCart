@@ -11,7 +11,7 @@ function ItemPage({ items, onAddToCart }) {
                   <Item item={item}>
                     <button className="Item-addToCart"
                             onClick={() => onAddToCart(item)}
-                    >Add to Cart</button>
+                    >添加购物车</button>
                   </Item>
                 </li>
             )}
